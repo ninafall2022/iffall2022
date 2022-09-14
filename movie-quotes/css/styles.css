@@ -1,0 +1,82 @@
+
+body{
+    font-family: "Gill Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:38px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size:32px;
+    text-align: center;
+}
+
+
+.scene {
+   
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    
+}
+
+div {
+    font-family:  "Gill Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size:20px
+}
+
+hr.dotted {
+     border-top: 3px dotted #bbb;
+}
+
+.pv {
+    
+    color:rgb(50, 64, 75)
+}
+
+.db {
+    color:rgb(142, 35, 119)
+}
+
+.m {
+    color:rgb(124, 101, 42)
+}
+
+.rd {
+    color:rgb(57, 100, 67)
+}
+
+.es {
+    color:rgb(145, 120, 131)
+}
+
+.wz {
+    color:rgb(197, 156, 156)
+}
+
+body {
+    background-color: rgb(253, 251, 253);
+    padding-bottom: 100px;
+}
+
+main div {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+span {
+    font-family:  "Gill Sans", sans-serif;
+    font-weight: 400;
+    font-style: Normal;
+}
