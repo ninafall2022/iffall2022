@@ -1,0 +1,33 @@
+body {
+    font-family:'Ubuntu';
+    margin: 10%; 
+    background-color: rgb(203, 224, 217);
+    padding-bottom: 30px;
+} 
+
+header {
+    font-size: 28px;
+} 
+
+h3 {
+    font-size: 25px;
+    color:rgb(139, 167, 152);
+}
+
+p {
+    font-size: 22px;
+}
+
+main {
+    font-size: 25px;
+} 
+
+code {
+    font-size: 18px; 
+    color:rgb(99, 96, 96);
+} 
+
+h1 { 
+    font-size: 30px;
+}  
+
