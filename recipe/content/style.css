@@ -1,0 +1,105 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    display: block;
+    max-width: 750px;
+    margin: auto;
+    background-color:#f5e3d4 ;
+    background-image:url("http://img2.3png.com/1236014b7353b2bf89254f060c40d4205fb6.png");
+    background-size: auto;
+}
+
+column{
+    float: left;
+    width: 58%;
+  }
+
+  .scene {
+
+    background-color: rgb(246,246,246);
+    
+    margin: 0.01px;
+    padding: 12px;
+  
+}
+   
+  .topnav {
+    margin-top: 10rem;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+h1{
+    margin-top: 4rem;
+}
+
+div{
+    padding-bottom: -100px;
+    margin-left:65%;
+    margin-right:10%;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 5rem;
+    color:rgb(131, 73, 52)
+}
+
+
+h5{
+    font-size: 30px;
+    margin-top: 18rem;
+    color:rgb(131, 73, 52)
+}
+
+
+p{
+    line-height: 1.5em;
+}
+
+img{
+    margin-bottom: 2rem;
+    object-position:center;
+}
+
+table {
+    display: inline-block;
+    margin-bottom: 40px;
+    line-height: 1.7em;
+}
+
+td {
+    padding: 0 20px;
+}
+
+.first{
+    margin-top: 5rem;
+}
+
+.last{
+    margin-bottom: 5rem;
+}
+.sep{
+    margin-top: 8rem;
+}
+
+h6{
+    font-size: 30px;
+    margin-top: 6rem;
+    color:rgb(131, 73, 52)
+}
+
+.square{
+    width: 250px;
+    object-position: center 20%;
+}
