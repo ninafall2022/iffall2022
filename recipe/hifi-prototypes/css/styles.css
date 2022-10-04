@@ -1,0 +1,28 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    margin-left: 15%
+}
+
+h1 {
+   padding-top: 2%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex:100%;
+    padding: 0;
+}
+
+.size-desk {
+   width: 90%;
+}
+
+.size-mobile {
+    width:24%;
+}
