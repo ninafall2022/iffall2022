@@ -380,3 +380,205 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', end
     text-shadow: none;
 }
 
+
+#button-new-yorker {
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #27113a;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 50px;
+    width: 179px;
+    text-align: left;
+    margin: auto;
+    margin-top: 100px;
+    transition: all .4s;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#button-new-yorker:hover {
+    letter-spacing: 3px;
+}
+
+#button-army {
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #440918;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+    text-align: left;
+    margin: auto;
+    margin-top: 100px;
+    transition: all .4s;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#button-army:hover {
+    font-weight: bold;
+    background: white;
+   
+    color: #ff0606;
+}
+
+
+#button-harley {
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #110b46;
+    color: #ffffff;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 50px;
+    width: 179px;
+    text-align: left;
+    margin: auto;
+    margin-top: 100px;
+    transition: all .4s;
+    padding-top: 12px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+#button-harley:hover {
+    font-style: italic;
+    background-color: #3326a8;
+}
+
+#button-facebook {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #1a77f2;
+    color: rgb(255, 255, 255);
+    text-transform: lowercase;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+#button-facebook:hover {
+    background-color: #11315c;
+    text-shadow: 2px 2px 2px rgb(8, 43, 11);
+}
+
+#button-apple {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: Bold;
+    background-color: #ffffff;
+    border: 2px solid #d6d6d6;
+    color: #000000;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 20px 10px 20px;
+    transition: all .5s;
+
+}
+
+#button-apple:hover {
+    color: #ffffff;
+    background-color: rgb(22, 20, 20);
+    border: 2px solid #d6d6d6;
+    letter-spacing: 1px;
+}
+
+
+#button-pottermore {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+  
+    background: #fceabb; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    border: 5px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 70px;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px 20px 10px 20px;
+}
+
+#button-pottermore:hover {
+  
+    color: rgba(90, 63, 45, 0.37);
+  
+}
+
+#button-tonight-show {
+    font-size: 20pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    background-color: #041125;
+    
+    color: #ffffff;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+    text-align: left;
+   
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px 20px 10px 20px;
+}
+
+#button-tonight-show:hover {
+    background-color: #5d688b;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgb(8, 43, 11);
+}
+
+#button-pastaria {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+   
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #802662;
+    border: 5px solid #802662;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#button-pastaria:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
