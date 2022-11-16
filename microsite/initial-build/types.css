@@ -104,7 +104,22 @@ h1 {
         color: rgb(194, 212, 229);
         }
 
-     
+        .column {
+            float: left;
+            width: 50%;
+            align-items: center;
+          
+            
+          }
+          
+         
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+    
+ 
     #p-intro{
         font-size:16.5px;
         line-height:1.5em;
@@ -117,6 +132,8 @@ h1 {
         .grid img {
             width: 50%;
             height: 90%;
+
+
          
         }
         
@@ -126,7 +143,14 @@ h1 {
         
         } 
 
-        
+        .gridimgCSS { height: 100%; width: 100%; border-radius: 10px; display: block; cursor: pointer; } 
+        .mask { position: absolute; background: rgba(101, 101, 101, 0.6); 
+            color: #ffffff; opacity: 0; top: 0; right: 0; width: 100%; height: 100%; border-radius: 10px; pointer-events:none; } 
+            .mask h3 { text-align: center; margin-top: 25%; } .img_div:hover .mask { opacity: 1; }
+        .div img:hover{
+                transform: scale(1.2);
+              }
+
         .grid {
             padding: 0;
             margin-bottom: 0;
@@ -140,7 +164,10 @@ h1 {
 img {
     border-radius: 2px;
     
- 
+       margin-left: 40%;
+       margin-top: 50px;
+       margin-bottom: 70px;
+     
        
     
 }
@@ -220,6 +247,16 @@ img {
         font-weight: 300;
         font-style: normal;
         margin:0;
-        font-size: 15px;
+        font-size: 14px;
      
         color: aliceblue; }
+
+        p{
+            padding: 25px 90px; /* 文字距离上下有100px内边距 距离左右有200内边距 */
+          
+            margin-top: 50px;
+            margin-right: 90px;
+            font-size: 15px;
+            
+        }
+     
