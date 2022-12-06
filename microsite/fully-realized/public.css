@@ -97,7 +97,7 @@ h4 { font-family: 'Century Gothic', sans-serif;
     list-style:none;
     background-color: rgba(164, 241, 255, 0.11);
     display:flex;
-    border-bottom: 1px solid rgb(255, 255, 255,0.6);
+   
     color: rgb(255, 255, 255);
     font-size: 16px;
     flex-wrap: wrap;
@@ -163,9 +163,17 @@ h4 { font-family: 'Century Gothic', sans-serif;
     margin-bottom: 20px;
      font-weight: 100;
   font-style: normal;
-  margin: 0 15%;
+
+  word-wrap: break-word;
+  
+  margin: 0 20%;
+ 
+
+ 
   font-size: 15px;
   margin-top: 30px;
+  color: aliceblue;
+ 
 }
 
 .home-content-img {
